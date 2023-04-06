@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--Name of the webpage-->
+        <title> Favorite Foods </title>
+        <!--Link for the css file-->
+        <link rel="stylesheet" href="Exer06.css"> 
+        <script src="Exer06.js" defer></script>  
+        <!--Link for google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="outer-container">
+            <div class="tab-section">
+                <ul>
+                    <li data-tab-target="#food-option">FAVORITE FOODS</li>
+                    <li data-tab-target="#song-option">FAVORITE SONGS</li>
+                    <li data-tab-target="#quote-option">FAVORITE QUOTES</li>
+                </ul>
+            </div>
+
+            <div class="food-section">
+                <div id="food-option" data-tab-content class="active">
+                    <div class="food-class">
+                        <img class="food" src="photos/sisig.jpg">
+                        <p class="food-title">SISIG</p>
+                        <p class="food-description">A Filipino street food of chopped pig parts and chicken livers tossed with a spicy and sour dressing, is said to have originated in Pampanga, a province centrally located on the island of Luzon in the northern Philippines.</p>
+                    </div>
+    
+                    <div class="food-class">
+                        <img class="food" src="photos/kare-kare.jpg">
+                        <p class="food-title">KARE-KARE</p>
+                        <p class="food-description">A Philippine stew (kare derives from "curry") that features a thick savory peanut sauce. It is generally made from a base of stewed oxtail, beef tripe, pork hocks, calves' feet, pig's feet or trotters, various cuts of pork, and beef stew meat.</p>
+                    </div>
+    
+                    <div class="food-class">
+                        <img class="food" src="photos/sinigang.jpg">
+                        <p class="food-title">SINIGANG</p>
+                        <p class="food-description">A tamarind-based soup that is known for its sour and savory taste. You can make it with either fish, pork belly, spare ribs or corned beef. My favorite is with pork spare ribs, lots of veggies, and a bed of rice.</p>
+                    </div>
+    
+                    <div class="food-class">
+                        <img class="food" src="photos/adobo.jpg">
+                        <p class="food-title">ADOBO</p>
+                        <p class="food-description">A popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade. </p>
+                    </div>
+                </div>
+                <div id="song-option" data-tab-content></div>
+                <div id="quote-option" data-tab-content></div>
+            </div>
+
+            <div class="ad-section">
+                <p class="ad-word">ADS</p>
+                <img class="ad" src="photos/ad5.jpg">
+                <img class="ad" src="photos/ad3.jpg">
+                <img class="ad" src="photos/ad4.jpg">
+            </div>
+        </div>  
+    </body>
+</html>
